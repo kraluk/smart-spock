@@ -2,16 +2,16 @@ plugins {
     id 'java'
     id 'groovy'
     id 'idea'
-    //id 'application'
+    id 'application'
 }
 
 // Project settings
 group = 'com.kraluk.smartspock'
 version = '0.1.0-SNAPSHOT'
 
-//mainClassName = 'com.kraluk.smartspock.Application'
+mainClassName = 'com.kraluk.smartspock.Application'
 
-/*jar {
+jar {
     manifest {
         attributes 'Implementation-Title': 'Smart Spock Examples',
                 'Implementation-Version': version,
@@ -21,7 +21,7 @@ version = '0.1.0-SNAPSHOT'
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
-}*/
+}
 
 // Java version
 sourceCompatibility = 1.8
