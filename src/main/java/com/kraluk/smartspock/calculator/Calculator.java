@@ -24,7 +24,7 @@ public final class Calculator {
     }
 
     public double multiply() {
-        return a + b;
+        return a * b;
     }
 
     public double divide() {
