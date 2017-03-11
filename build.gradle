@@ -24,8 +24,8 @@ jar {
 }
 
 // Java version
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     mavenLocal()
@@ -45,5 +45,5 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '3.3'
+    gradleVersion = '3.4'
 }
