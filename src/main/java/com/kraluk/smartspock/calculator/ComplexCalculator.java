@@ -13,7 +13,7 @@ public final class ComplexCalculator {
     private final Calculator reCalculator;
     private final Calculator imCalculator;
 
-    public ComplexCalculator(Complex a, Complex b) {
+    public ComplexCalculator(final Complex a, final Complex b) {
         this.a = a;
         this.b = b;
 
@@ -25,6 +25,13 @@ public final class ComplexCalculator {
         return new Complex(
             reCalculator.add(),
             imCalculator.add()
+        );
+    }
+
+    public Complex subtract() {
+        return new Complex(
+            reCalculator.subtract(),
+            imCalculator.subtract()
         );
     }
 
