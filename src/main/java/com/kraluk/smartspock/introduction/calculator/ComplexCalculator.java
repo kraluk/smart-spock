@@ -1,4 +1,4 @@
-package com.kraluk.smartspock.calculator;
+package com.kraluk.smartspock.introduction.calculator;
 
 /**
  * Provides some more complex math operations on {@link Double} values

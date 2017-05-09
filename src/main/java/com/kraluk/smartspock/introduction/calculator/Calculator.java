@@ -1,4 +1,4 @@
-package com.kraluk.smartspock.calculator;
+package com.kraluk.smartspock.introduction.calculator;
 
 /**
  * Simple calculator

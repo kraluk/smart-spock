@@ -1,4 +1,4 @@
-package com.kraluk.smartspock.calculator
+package com.kraluk.smartspock.introduction.calculator
 
 import spock.lang.Specification
 import spock.lang.Unroll
@@ -57,7 +57,7 @@ class CalculatorSpec extends Specification {
             def calculator = new Calculator(a, b)
 
         when:
-            def result = calculator.divide()
+            double result = calculator.divide()
 
         then:
             result == expected
@@ -65,7 +65,7 @@ class CalculatorSpec extends Specification {
 
         where:
             a   || b   || expected
-            2.0 || 2.0 || 1.0 as double
+            2.0 || 2.0 || 1.0
             9.0 || 3.0 || 3.0
     }
 
